@@ -105,3 +105,8 @@ footer{
     font-family: Atkinson Hyperlegible;
     src: url(../fonts/atkinson-hyperlegible.ttf);
 }
+
+@font-face {
+    font-family: Unispace;
+    src: url(fonts/unispace\ bd.ttf);
+}
