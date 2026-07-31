@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.mainhead{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+
+.mainhead ul{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    list-style: none;
+}
+
+ul a{
+    align-content: center;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    transition: 250ms;
+}
+
+ul a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.bg{
+    background-image: url(../img/00028-205654059.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    z-index: -1;
+    filter: blur(8px);
+}
+
+#content{
+    display: flex;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Atkinson Hyperlegible;
+}
+.video{
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    border-radius: 25px;
+}
+
+.video h3{
+    padding: 15px;
+}
+
+.video img{
+    transition: 500ms;
+    border-radius: 10px;
+}
+
+.video img:hover{
+    transform: translateY(-5px);
+    opacity: 50%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding: 20px;
+    font-family: Atkinson Hyperlegible;
+}
+
+@font-face {
+    font-family: Atkinson Hyperlegible;
+    src: url(../fonts/atkinson-hyperlegible.ttf);
+}

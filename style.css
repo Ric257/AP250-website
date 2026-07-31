@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.mainhead{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+
+.mainhead ul{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    align-content: center;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    transition: 250ms;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+/* End header style*/
+/* Website content style */
+.bg{
+    background-image: url(img/00028-205654059.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    z-index: -1;
+    filter: blur(8px);
+}
+
+#contents{
+    margin: auto;
+    position: relative;
+    top: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    font-family: Atkinson Hyperlegible;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.present p{
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 15px 15px 0 0;
+}
+
+.mainbuttons{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 150ms;
+}
+
+#contents2{
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+    top: 120px;
+    margin: auto;
+    width: 70%;
+    color: white;
+    font-family: Atkinson Hyperlegible;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+h3{
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+#contents2 p{
+    padding: 10px 0;
+}
+
+.text{
+    padding: 15px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding: 20px;
+    font-family: Atkinson Hyperlegible;
+}
+
+@font-face {
+    font-family: Atkinson Hyperlegible;
+    src: url(fonts/atkinson-hyperlegible.ttf);
+}
+
+@font-face {
+    font-family: Unispace;
+    src: url(fonts/unispace\ bd.ttf);
+}
