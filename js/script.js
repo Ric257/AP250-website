@@ -25,7 +25,7 @@ function showHome(){
 }
 
 function showSf(){
-    let rutaArchivo = "../views/SoundFonts.html"
+    let rutaArchivo = "views/SoundFonts.html"
 
     fetch(rutaArchivo)
     .then(response => response.text())
@@ -34,7 +34,7 @@ function showSf(){
 })
 }
 function showMd(){
-    let rutaArchivo = "../views/MIDIs.html"
+    let rutaArchivo = "views/MIDIs.html"
 
     fetch(rutaArchivo)
     .then(response => response.text())
@@ -44,7 +44,7 @@ function showMd(){
 }
 
 function showXt(){
-    let rutaArchivo = "../views/Specs.html"
+    let rutaArchivo = "views/Specs.html"
 
     fetch(rutaArchivo)
     .then(response => response.text())
